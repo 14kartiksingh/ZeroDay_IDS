@@ -1,0 +1,21 @@
+{
+    "model_type": "Benign-only Autoencoder",
+    "input_features": [
+        "Destination Port",
+        "Flow Duration",
+        "Total Fwd Packets",
+        "Total Backward Packets",
+        "Total Length of Fwd Packets",
+        "Total Length of Bwd Packets",
+        "Flow Bytes/s",
+        "Flow Packets/s",
+        "SYN Flag Count"
+    ],
+    "threshold": 0.01709054782986641,
+    "threshold_percentile": 99.5,
+    "rate_transform": "log1p",
+    "duration_dataset_unit": "microseconds",
+    "duration_live_unit": "seconds",
+    "live_duration_conversion": "multiply_by_1000000",
+    "input_dimension": 9
+}

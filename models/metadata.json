@@ -1,0 +1,16 @@
+﻿{
+  "model_version": "Model_B_CNS2022_9Features",
+  "input_features": [
+    "Dst Port",
+    "Flow Duration",
+    "Total Fwd Packet",
+    "Total Bwd packets",
+    "Total Length of Fwd Packet",
+    "Total Length of Bwd Packet",
+    "Flow Bytes/s",
+    "Flow Packets/s",
+    "SYN Flag Count"
+  ],
+  "threshold": 0.004877559,
+  "best_val_loss": 0.000456635238068007
+}
